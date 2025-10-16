@@ -1,0 +1,84 @@
+{
+  "scopeName": "source.ipl",
+  "name": "IPL",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#keywords" },
+    { "include": "#builtins" },
+    { "include": "#strings" },
+    { "include": "#numbers" },
+    { "include": "#functions" },
+    { "include": "#classes" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.number-sign.ipl",
+          "match": "#.*$"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.ipl",
+          "match": "\\b(if|elif|else|for|while|break|continue|return|class|def|import|self)\\b"
+        }
+      ]
+    },
+    "builtins": {
+      "patterns": [
+        {
+          "name": "support.function.builtin.ipl",
+          "match": "\\b(out|in|random|round|pow|min|max|len|value)\\b"
+        },
+        {
+          "name": "constant.language.boolean.ipl",
+          "match": "\\b(True|False|None)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.ipl",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.ipl",
+              "match": "\\\\."
+            }
+          ]
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.ipl",
+          "match": "\\b\\d+(\\.\\d+)?\\b"
+        }
+      ]
+    },
+    "functions": {
+      "patterns": [
+        {
+          "name": "entity.name.function.ipl",
+          "match": "\\bdef\\s+([a-zA-Z_][a-zA-Z0-9_]*)"
+        }
+      ]
+    },
+    "classes": {
+      "patterns": [
+        {
+          "name": "entity.name.type.class.ipl",
+          "match": "\\bclass\\s+([a-zA-Z_][a-zA-Z0-9_]*)"
+        }
+      ]
+    }
+  },
+  "fileTypes": ["ipl"],
+  "uuid": "c5e7ffbb-78ef-42ab-bc02-2f9f0d1a88bb"
+}

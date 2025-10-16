@@ -1,0 +1,25 @@
+{
+  "name": "IPL",
+  "displayName": "ipl",
+  "description": "Interpreted Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ipl",
+      "aliases": ["IPL", "ipl"],
+      "extensions": [".ipl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ipl",
+      "scopeName": "source.ipl",
+      "path": "./syntaxes/ipl.tmLanguage.json"
+    }]
+  }
+}
