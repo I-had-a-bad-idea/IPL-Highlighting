@@ -1,8 +1,8 @@
 # IPL Highlighting
 
-VS Code syntax highlighting for IPL — a small, focused grammar to give IPL files clear, readable colors in the editor.
+VS Code syntax highlighting for [IPL](https://github.com/I-had-a-bad-idea/IPL)
 
-Marketplace: https://marketplace.visualstudio.com/items?itemName=I-had-a-bad-idea.IPL-Highlighting
+Find it on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=I-had-a-bad-idea.IPL-Highlighting)
 
 ## Features
 
