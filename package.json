@@ -1,8 +1,13 @@
 {
-  "name": "IPL",
-  "displayName": "ipl",
-  "description": "Interpreted Programming Language",
-  "version": "0.0.1",
+  "name": "IPL-Highlighting",
+  "displayName": "ipl-highlighting",
+  "description": "Interpreted Programming Language Highlighting for VSCode",
+  "version": "1.0.0",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/I-had-a-bad-idea/IPL-Highlighting.git"
+  },
+  "publisher": "I-had-a-bad-idea",
   "engines": {
     "vscode": "^1.105.0"
   },
